@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 require_once 'src/Transformer/transform.php';
 
-class :qtransformTest extends TestCase
+class transformTest extends TestCase
 {
     public function testTransformForAccounts() {
         $accountsJson = '[
