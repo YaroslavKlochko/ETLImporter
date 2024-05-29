@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1020100",
+    "number": "1020-100",
+    "description": "Bank account, operating",
+    "created": "2019-01-01T00:00:00",
+    "isActive": true
+  },
+  {
+    "id": "1030100",
+    "number": "1030-100",
+    "description": "Bank account, payroll",
+    "created": "2019-01-01T00:00:00",
+    "isActive": true
+  }
+]
