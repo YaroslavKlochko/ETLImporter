@@ -1,0 +1,26 @@
+[
+  {
+    "id": "CCB",
+    "name": "City Commercial Bank",
+    "account": "1020-100",
+    "currency": "USD",
+    "lastModified": "2017-01-24T00:00:00",
+    "isActive": true
+  },
+  {
+    "id": "PRBANK",
+    "name": "Second National Bank",
+    "account": "1030-100",
+    "currency": "CAD",
+    "lastModified": "2013-11-12T00:00:00",
+    "isActive": false
+  },
+  {
+    "id": "VISASTB",
+    "name": "Visa Seattle Tacoma Bank",
+    "account": "1030-100",
+    "currency": "USD",
+    "lastModified": "2010-08-18T00:00:00",
+    "isActive": true
+  }
+]
