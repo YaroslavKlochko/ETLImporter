@@ -195,7 +195,6 @@ This ETL importer loads data from files into a PostgreSQL database for an Accoun
               "Tests\\": "tests/"
             }
           }
-          }
       ```
    
   - Run the program by using the command:
