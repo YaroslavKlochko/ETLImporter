@@ -56,10 +56,10 @@ This ETL importer loads data from files into a PostgreSQL database for an Accoun
 2. **Configuration**
     - Update the database connection details in **db_configuration.php**. 
    (Make sure to replace ```<host>```, ```<port>```, ```username``` and ```password```  with the appropriate values for your database setup. According to the schema above, the database name should be set to `ap_system`( ```<dbname>:ap_system```). Also, if you are using Postgres, the port should be set to 5432(```<port>=5432```).
-    - Ensure the necessary PHP extensions are enabled.(For example PHPUnit that could be set in composer.json))
+    - Ensure the necessary PHP extensions are enabled.(For example PHPUnit that could be set in composer.json)).
 
-3. **Create data folder**
-   - First, create a folder with the name ```data```
+3. **Create data folder(or use provided sample data in the project)**
+   - First, create a folder with the name ```data```.
    - Inside the data folder, create the following JSON files:
    
    
@@ -173,9 +173,9 @@ This ETL importer loads data from files into a PostgreSQL database for an Accoun
    ```
    
    4. **Running the ETL Importer**
+
        - Place your JSON files (`accounts.json`, `vendors.json`, `bank_accounts.json`) in data folder.
-       - Update your **composer.json** with the command **composer update** and add it into **composer.json** file:
-       - Add missing dependencies to your composer.json file and after that run **composer update**
+       - Create **composer.json**, add missing dependencies and then update it with the command **composer update**:
 
    ```json
           {
@@ -190,7 +190,7 @@ This ETL importer loads data from files into a PostgreSQL database for an Accoun
             "ext-pdo": "*"
           },
           "autoload": {
-            "psr-4": {
+            "psr-4": 
               "App\\": "src/",
               "Tests\\": "tests/"
             }
